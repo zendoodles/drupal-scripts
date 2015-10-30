@@ -1,0 +1,21 @@
+{
+  "name": "zendoodles/drupal-scripts",
+  "description": "Composer scripts for Drupal",
+  "license": "GPL-2.0+",
+  "authors": [
+     {
+       "name": "Andrea Soper",
+       "email": "zendoodles@gmail.com"
+     }
+  ],
+  "autoload": {
+    "psr-0" : {
+      "Drupal\\ComposerScripts" : "src"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "composer/composer": "^1.0@dev"
+  }
+}
